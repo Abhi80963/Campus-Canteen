@@ -56,6 +56,11 @@ npm run dev
 # or
 yarn dev
 ```
+
+## Deploy Link
+```
+https://campus-canteen-peach.vercel.app/
+```
 ## 👨‍💻 Author
 **Built with ❤️ by Abhishek Raj**
 
