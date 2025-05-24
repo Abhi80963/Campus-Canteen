@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Campus Canteen 🍔 – Food Ordering Web App
 
-## Getting Started
+CampusCanteen is a fully responsive and interactive food ordering web application built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **React**. It allows users to browse a dynamic menu, search for dishes, and manage their cart – offering a seamless canteen ordering experience, perfect for colleges and institutions.
 
-First, run the development server:
+## ✨ Features
+
+- 🔍 **Smart Search** – Search food by name, description, or category
+- 🧾 **Menu Page** – Organized menu cards with image, price, discount, and dietary icons (veg/non-veg)
+- 🛒 **Cart System** – Add/remove items with quantity selector and persistent cart using Zustand
+- 🧠 **State Management** – Using lightweight and fast `zustand` store
+- 💾 **Local Storage** – Keeps cart data across sessions
+- 🖥️ **Responsive UI** – Mobile-first, accessible and fully responsive layout
+- ⚡ **Client-Side Navigation** – Built using Next.js App Router (`/app` directory)
+
+## 📁 Folder Structure
+```
+src/
+├── app/
+│ ├── layout.tsx
+│ ├── (home)/page.tsx // Homepage
+│ ├── menu/ // Menu items page
+│ ├── cart/ // Cart page
+│ └── search/ // Search results
+├── components/ // Reusable components (Navbar, Footer, etc.)
+├── data/ // Static data for menu items
+├── stores/ // Zustand store for cart
+├── styles/ // Tailwind + custom styles
+```
+
+## 🛠️ Tech Stack
+
+- **Framework**: [Next.js 14 (App Router)](https://nextjs.org/docs/app)
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **State Management**: Zustand
+- **Icons & UI**: Heroicons, Radix UI (via `@shadcn/ui`)
+- **Images**: Next/Image optimization
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
 
 ```bash
+git clone https://github.com/yourusername/campus-canteen.git
+cd campus-canteen
+```
+### 2.  Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+### 3. Run the development server
+```
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
+## 👨‍💻 Author
+**Built with ❤️ by Abhishek Raj**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📬 Contact
+If you have any questions, suggestions, or feedback, feel free to reach out:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📧 Email: workwithabhishek2@gmail.com
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🐦 Twitter: @AbhishekRa8597
 
-## Learn More
+💼 LinkedIn: https://www.linkedin.com/in/abhishek-raj-28b253258/
 
-To learn more about Next.js, take a look at the following resources:
+🌐 Portfolio: https://portfolio-web-flax-delta.vercel.app
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 License
+MIT License. Feel free to fork and build upon it!
